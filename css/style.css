@@ -35,9 +35,23 @@ footer{
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
-    text-decoration-color: ;
+    text-decoration-color: #fc036b;
     
+}
+h4{
+    color: #fc036b;
 }
  section{
     margin-top: 5%;
- }   
+ }
+ .menu{
+    color: black;
+ }
+ .nav-link{
+    color: black;
+
+ } 
+ .nav-link:hover{
+    background: #fc036b;
+    color: whitesmoke;
+ }  
