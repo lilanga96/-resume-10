@@ -39,7 +39,15 @@ h2{
     
 }
 h4{
-    color: #fc036b;
+    background-color: #fc036b;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20%;
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: #fc036b;
 }
  section{
     margin-top: 5%;
@@ -51,7 +59,43 @@ h4{
     color: black;
 
  } 
+ .card-text:hover{
+    background-color: #fc036b;
+
+ }
  .nav-link:hover{
     background: #fc036b;
     color: whitesmoke;
- }  
+ }
+ 
+ .git:hover{
+    animation-name: gitAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes gitAnimation{
+    0%{
+        transform: translateX(1rem);}
+        100%{
+            transform: scale(1.2);
+        }
+    }
+    
+.twitter:hover{ animation-name: twitterAnime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+
+}
+@keyframes twitterAnime{
+    0%{ transform: translateY(1rem);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
