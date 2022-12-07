@@ -12,10 +12,13 @@
 
 }
 header{
-    background-image: url(images/background-img.jpg) ;
+    background-image: url('images/background-img.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-body{
+main{
 background-color: black;
 color: whitesmoke;
  
