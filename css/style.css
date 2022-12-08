@@ -153,6 +153,8 @@ h1{
         height: 180px;
         width: 180px;
         border-radius: 50%;
+        text-align: center;
+    
     }
 }
 @media (max-width:850px){
@@ -160,15 +162,16 @@ h1{
         font-size: small;
 
     }
-    .card-tittle{
-        font-size: large;
+    .img{
+        text-align: center;
     }
+    
 }
     
 
 @media (max-width:550px){
     h4{
-        border-radius: 10px;
+        border-radius: 15px;
         
 
 
@@ -176,13 +179,12 @@ h1{
     .card-text{
         font-size: small;
     }
-    .card-tittle{
-        font-size: large;
-    }
+    
     .img{
         width: 150px;
         height: 150px;
         border-radius: 40%;
+        text-align: center;
     }
 }
 
